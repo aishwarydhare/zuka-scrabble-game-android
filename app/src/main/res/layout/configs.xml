@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/scrabble_tiles">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/rl1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:id="@+id/cb1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Enable player" />
+
+                <EditText
+                    android:id="@+id/et1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv1"
+                    android:background="@android:drawable/editbox_background" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/spinner1"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/begin_game1"
+                        android:layout_width="100px"
+                        android:layout_height="wrap_content"
+                        android:text="Begin" />
+
+                    <Button
+                        android:id="@+id/cancel1"
+                        android:layout_width="100px"
+                        android:layout_height="wrap_content"
+                        android:text="Cancel" />
+                </LinearLayout>
+
+                <Spinner
+                    android:id="@+id/spinner1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv1b" />
+
+                <TextView
+                    android:id="@+id/tv1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/cb1"
+                    android:text="Name:" />
+
+                <TextView
+                    android:id="@+id/tv1b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/et1"
+                    android:text="Color:" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:id="@+id/cb2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Enable player" />
+
+                <EditText
+                    android:id="@+id/et2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv2"
+                    android:background="@android:drawable/editbox_background" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/spinner2"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/begin_game2"
+                        android:layout_width="100px"
+                        android:layout_height="wrap_content"
+                        android:text="Begin" />
+
+                    <Button
+                        android:id="@+id/cancel2"
+                        android:layout_width="100px"
+                        android:layout_height="wrap_content"
+                        android:text="Cancel" />
+                </LinearLayout>
+
+                <Spinner
+                    android:id="@+id/spinner2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv2b" />
+
+                <TextView
+                    android:id="@+id/tv2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/cb2"
+                    android:text="Name:" />
+
+                <TextView
+                    android:id="@+id/tv2b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/et2"
+                    android:text="Color:" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:id="@+id/cb3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Enable player" />
+
+                <EditText
+                    android:id="@+id/et3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv3"
+                    android:background="@android:drawable/editbox_background" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/spinner3"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/begin_game3"
+                        android:layout_width="100px"
+                        android:layout_height="wrap_content"
+                        android:text="Begin" />
+
+                    <Button
+                        android:id="@+id/cancel3"
+                        android:layout_width="100px"
+                        android:layout_height="wrap_content"
+                        android:text="Cancel" />
+                </LinearLayout>
+
+                <Spinner
+                    android:id="@+id/spinner3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv3b" />
+
+                <TextView
+                    android:id="@+id/tv3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/cb3"
+                    android:text="Name:" />
+
+                <TextView
+                    android:id="@+id/tv3b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/et3"
+                    android:text="Color:" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:id="@+id/cb4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Enable player" />
+
+                <EditText
+                    android:id="@+id/et4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv4"
+                    android:background="@android:drawable/editbox_background" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/spinner4"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/begin_game4"
+                        android:layout_width="100px"
+                        android:layout_height="wrap_content"
+                        android:text="Begin" />
+
+                    <Button
+                        android:id="@+id/cancel4"
+                        android:layout_width="100px"
+                        android:layout_height="wrap_content"
+                        android:text="Cancel" />
+                </LinearLayout>
+
+                <Spinner
+                    android:id="@+id/spinner4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv4b" />
+
+                <TextView
+                    android:id="@+id/tv4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/cb4"
+                    android:text="Name:" />
+
+                <TextView
+                    android:id="@+id/tv4b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/et4"
+                    android:text="Color:" />
+            </RelativeLayout>
+        </FrameLayout>
+
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</TabHost>

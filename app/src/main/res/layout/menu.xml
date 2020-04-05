@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget0"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/scrabble_tiles"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/new_game"
+        android:layout_width="200px"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/new_game" />
+
+    <Button
+        android:id="@+id/quick_start"
+        android:layout_width="200px"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/quick_start" />
+
+    <Button
+        android:id="@+id/instructions"
+        android:layout_width="200px"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Instructions" />
+
+    <Button
+        android:id="@+id/about"
+        android:layout_width="200px"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/about" />
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="200px"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/exit" />
+
+    <CheckBox
+        android:id="@+id/sound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="Sound on" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10px"
+        android:src="@drawable/upwords" />
+
+    <TextView
+        android:id="@+id/widget35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/widget36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#E6568A</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="bluegrey">#C5D7FF</color>
+    <color name="yellow">#FFC107</color>
+    <color name="activetile">#FFDD93</color>
+    <color name="green">#4CAF50</color>
+    <color name="board_bg">#FFFFFF</color>
+    <color name="tray_bg">#B6B6B6</color>
+    <color name="test">#A0A0C8</color>
+</resources>

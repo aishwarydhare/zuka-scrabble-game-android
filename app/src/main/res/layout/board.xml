@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tray_bg"
+    android:orientation="horizontal"
+    android:paddingLeft="3dp"
+    android:paddingTop="3dp"
+    android:paddingRight="3dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <in.co.zuka.zukascrabble.BoardView
+            android:id="@+id/board_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:drawSelectorOnTop="false"
+            android:focusable="true"
+            android:longClickable="true" />
+
+        <LinearLayout
+            android:id="@+id/toolbar_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/giveturn_button_horizontal"
+                style="@style/toolbar_button"
+                android:text="Give Up Turn"/>
+
+            <Button
+                android:id="@+id/undo_button_horizontal"
+                style="@style/toolbar_button"
+                android:text="Undo"/>
+
+            <Button
+                android:id="@+id/endturn_button_horizontal"
+                style="@style/toolbar_button"
+                android:clickable="false"
+                android:longClickable="false"
+                android:text="End Turn"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/toolbar_horizontal2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+<!--            <Button
+                android:id="@+id/exit_button_horizontal"
+                style="@style/toolbar_button"
+                android:src="@drawable/exit" />-->
+
+            <Button
+                android:id="@+id/begin_new_game"
+                style="@style/toolbar_button"
+                android:text="Start New Game"/>
+
+            <!--<Button
+                android:id="@+id/switch_button_horizontal"
+                style="@style/toolbar_button"
+                android:text="Switch a tile"/>-->
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
